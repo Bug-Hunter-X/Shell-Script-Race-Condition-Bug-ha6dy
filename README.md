@@ -1,0 +1,1 @@
+This repository contains a simple shell script that demonstrates a race condition bug and its solution.  The script uses multiple processes to increment a counter stored in a file.  Due to race conditions, the final counter value may not be 10. The solution uses file locking to prevent race conditions.
